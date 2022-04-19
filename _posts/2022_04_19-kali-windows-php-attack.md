@@ -1,5 +1,5 @@
 ---
-title: 'kali Windows PHP Attack'
+title: 'Kali Windows PHP Attack'
 author: RichMason
 layout: post
 permalink: /kali-php/
@@ -16,9 +16,10 @@ Rename C:\xampp\htdocs\dvwa\config\config.inc.php.data to remove the last extens
 
 Edit the file as
 
+```
 $_DVWA[ 'db_user' ]     = 'root';
 $_DVWA[ 'db_password' ] = '';
-
+```
 
 Start using xampp console apache and mysql.
 
@@ -101,4 +102,4 @@ On the Kali appliance
 apt-get install remmina
 ```
 
-Connect over rdp to demonstarte access via the user created.
+Connect over rdp to demonstrate access via the user created.
