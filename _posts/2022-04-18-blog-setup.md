@@ -2,9 +2,6 @@
 title: 'Blog Setup'
 author: RichMason
 layout: post
-permalink: /blog-setup/
-dsq_thread_id:
-  - 1196801603
 categories:
   - Tech
 ---
@@ -19,3 +16,5 @@ A cname record to point www.richm.cloud to rmason2020.github.io
 A CAA record allowing letsencrypt.org to issue certificates for richm.cloud. This last step is if you want to enforce https.
 
 Visual Code installed, git added as an extension and file > preferences > settings > add the git binary location to git: path > sync changes.
+
+Used this bootstrap to setup the blog using jekyll.
