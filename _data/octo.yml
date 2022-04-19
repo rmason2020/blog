@@ -1,19 +1,17 @@
-CTO Blog:
+CTO Whiteboard Blog:
   - name: Machine Learning Bias
     description: Alexa are you Biased?
     link: https://octo.vmware.com/machine-learning-addressing-inherent-bias/
 
-  - name: EDR (On Prem) Documentation
-    description: Documentation for servers, sensors etc for On Premise (former Response).
-    link: https://docs.vmware.com/en/VMware-Carbon-Black-EDR/index.html
+  - name: The IDEM Project
+    description: Simplifying Cloud Infrastructure down to data.
+    link: https://octo.vmware.com/unveiling-the-idem-project-cloud-automation-without-the-code/
 
-  - name: App Control Documentation
-    description: App Control Documentation
-    link: https://docs.vmware.com/en/VMware-Carbon-Black-App-Control/index.html
+  - name: VMware Reasearchers
+    description: Solving fundamental time based compute problems
+    link: https://octo.vmware.com/vmware-researchers-tackling-timely-problems-that-affect-business-outcomes/
 
-  - name: Carbon Black techZone
-    description: Tech Zone Knowledgebase
-    link: https://carbonblack.vmware.com/
+
 
 
 code sharing / collaboration:
