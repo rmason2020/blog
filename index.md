@@ -6,9 +6,13 @@ Enable github pages, create a repo > settings pages.  You will need to create th
 
 A forwarding record to forward richm.cloud to www.richm.cloud
 
-A cname record to point www.richm.cloud to rmason2020.github.io 
+A cname record to point www.richm.cloud to rmason2020.github.io
 
 A CAA record allowing letsencrypt.org to issue certificates for richm.cloud.  This last step is if you want to enforce https.
+
+Visual Code installed, git added as an extension and file > preferences > settings > add the git binary location to git: path > sync changes.
+
+
 
 ### Markdown
 
@@ -32,7 +36,19 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Install MacOS Monterey in Fusion
+
+Download the Installer from AppStore but cancel once download finishes.
+
+hdiutil create -size 15G -fs hfs+ -volname macOSInstaller -type SPARSEBUNDLE /Users/Shared/macOSInstaller
+
+hddiutil attach /Users/Shared/macOSInstaller.sparsebundle
+
+
+sudo /Applications/Install\ macOS\ Monterey/Contents/Resources/createinstallmedia --volume /Volumes/macOSInstaller —nointeraction
+
+hdiutil makehybrid -o /Users/Shared/macOSInstaller /Users/Shared/macOSInstaller.sparsebundle
+
 
 ### Jekyll Themes
 
