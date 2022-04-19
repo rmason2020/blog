@@ -14,9 +14,13 @@ Carbon Black:
   - name: Carbon Black techZone
     description: Tech Zone Knowledgebase
     link: https://carbonblack.vmware.com/
+    
+  - name: Carbon Black Cloud Reputation
+    description: Fundamental understanding of the reputation based control in CBC Endpoint Standard.
+    link: https://community.carbonblack.com/t5/Knowledge-Base/CB-Defense-Reputation-Priority/ta-p/51797   
 
 
-code sharing / collaboration:
+Code sharing / Collaboration:
   - name: VEBA
     description: "VMware Event Broker Appliance"
     link: http://vmweventbroker.io/
@@ -29,41 +33,37 @@ code sharing / collaboration:
     description: VMware Employee, various technical blog posts
     link: https://williamlam.com/
 
-diagramming:
-  - name: GraphViz Online
-    description: Dot/GraphViz visualizer
-    link: https://dreampuf.github.io/GraphvizOnline
+CTOA:
+  - name: CTOA Podcast
+    description: CTOA and Gloab Field Principal Podcast
+    link: https://vmwocto.podbean.com/?action=openPodcast&podcastId=pbblog11944703&podcastIdTag=4sdr6&utm_campaign=i_share_pp&utm_medium=dlink&utm_source=i_share
 
 
-networking:
-  - name: Speed test - CloudFlare
-    description: Speed/Latency testing
-    link: https://speed.cloudflare.com
+Carbon Black Clouds:
+  - name: Europe (Frankfurt)
+    description: Prod06
+    link: https://defense-eu.conferdeploy.net
 
-  - name: Speed test - SpeedTest.net
-    description: Speed/Latency testing
-    link: https://www.speedtest.net
+  - name: US (Virginia)
+    description: Prod05
+    link: https://defense-prod05.conferdeploy.net
 
-  - name: Speed test - Fast.com
-    description: Speed/Latency testing
-    link: https://fast.com
+  - name: Australia (Sydney)
+    description: ProdSyd
+    link: https://defense-prodsyd.conferdeploy.net
 
-  - name: MXToolbox SuperTool
-    description: MX record, DNS, blacklist and SMTP diagnostics
-    link: https://mxtoolbox.com/SuperTool.aspx
+  - name: UK (London)
+    description: TBC
+    link: https://tbc.conferdeploy.net
 
-reference:
-  - name: Javascript Equality Table
-    description: Reference chart showing result of equality operations
-    link: https://dorey.github.io/JavaScript-Equality-Table/unified/
+Containers:
+  - name: ACME Demo Shopping Site
+    description: Demo site to use with K8's to demonstrate multiple nodes and network communications
+    link: https://github.com/vmwarecloudadvocacy/acme_fitness_demo/tree/master/kubernetes-manifests
 
-  - name: HTTP Status Codes
-    description: Database of HTTP Status Codes with their definitions and helpful code references
-    link: https://httpstatuses.com
-
-  - name: dotnet-install scripts reference
-    description: Script to install various versions of the .NET SDK
-    link: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script
+  - name: Demo Magic
+    description: Resources urated by Stephane List to help demo CB and K8's
+    link: https://github.com/slist/demo-magic
 
 misc:
   - name: Base64 Guru
