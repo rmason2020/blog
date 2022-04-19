@@ -1,6 +1,6 @@
 ## Welcome to Richard Mason's Blog
 
-Notes for getting started with this blog
+Notes made getting started with this blog
 
 Enable github pages, create a repo > settings pages.  You will need to create three DNS records, I use Go Daddy and had to create
 
