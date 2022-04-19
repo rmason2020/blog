@@ -4,7 +4,7 @@ title: OCTO
 description: Office of the CTO 
 ---
 
-Various links and Blog Posts related to the VMware Office of the CTO.
+Various links and Blog Posts related to the VMware Office of the CTO, https://octo.vmware.com/.
 
 {% for category in site.data.octo %}
 {% assign items = category[1] | sort_natural: "name" %}
