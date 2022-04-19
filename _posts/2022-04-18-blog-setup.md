@@ -2,6 +2,7 @@
 title: 'Blog Setup'
 author: RichMason
 layout: post
+permalink: /blog-setup/
 categories:
   - Tech
 ---
