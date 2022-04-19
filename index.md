@@ -1,8 +1,14 @@
 ## Welcome to Richard Mason's Blog
 
-You can use the [editor on GitHub](https://github.com/rmason2020/blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Notes for getting started with this blog
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Enable github pages, create a repo > settings pages.  You will need to create three DNS records, I use Go Daddy and had to create
+
+A forwarding record to forward richm.cloud to www.richm.cloud
+
+A cname record to point www.richm.cloud to rmason2020.github.io 
+
+A CAA record allowing letsencrypt.org to issue certificates for richm.cloud.  This last step is if you want to enforce https.
 
 ### Markdown
 
