@@ -1,4 +1,4 @@
-## Welcome to Richard Mason's Blog
+Welcome to Richard Mason's Blog
 
 This site has been created as a central repository for me to share and store my thoughts and day to day technical findings.
 
