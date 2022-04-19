@@ -1,3 +1,11 @@
+---
+title: 'kali Windows PHP Attack'
+author: RichMason
+layout: post
+permalink: /kali-php/
+categories:
+  - Tech
+---
 Install xampp from https://www.apachefriends.org/download.html
 
 Download dvwa from https://github.com/digininja/DVWA
