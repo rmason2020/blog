@@ -12,6 +12,8 @@ A CAA record allowing letsencrypt.org to issue certificates for richm.cloud.  Th
 
 Visual Code installed, git added as an extension and file > preferences > settings > add the git binary location to git: path > sync changes.
 
+Follow this link to setup the site. https://jekyllrb.com/docs/step-by-step/08-blogging/
+
 
 
 ### Markdown
