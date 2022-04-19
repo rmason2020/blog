@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Bookmarks
-description: Useful online tools and resources
+title: OCTO
+description: Office of the CTO 
 ---
 
-Various online tools, databases, references, cheatsheets, etc, that I've found over the years to be helpful in my day to day work.
-
-If you have any suggestions to add, or a better way to organize this page, feel free to let me know in the comments.
+Various links and Blog Posts related to the VMware Office of the CTO.
 
 {% for category in site.data.octo %}
 {% assign items = category[1] | sort_natural: "name" %}
