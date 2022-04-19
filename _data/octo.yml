@@ -14,20 +14,4 @@ CTO Whiteboard Blog:
 
 
 
-code sharing / collaboration:
-  - name: VEBA
-    description: "VMware Event Broker Appliance"
-    link: http://vmweventbroker.io/
-
-  - name: Patrick Kramer
-    description: VMware Employee, various technical blog posts
-    link: http://www.patrickkremer.com/
-
-  - name: William Lam
-    description: VMware Employee, various technical blog posts
-    link: https://williamlam.com/
-
-diagramming:
-  - name: GraphViz Online
-    description: Dot/GraphViz visualizer
-    link: https://dreampuf.github.io/GraphvizOnline
+CTOA:
