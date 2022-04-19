@@ -2,6 +2,7 @@
 title: 'Install Virtual MacOS Monterey on VM Fusion'
 author: RichMason
 layout: post
+permalink: /monterey-fusion/
 categories:
   - Tech
 ---
