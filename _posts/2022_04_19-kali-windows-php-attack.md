@@ -6,6 +6,8 @@ permalink: /kali-php/
 categories:
   - Tech
 ---
+This Post is to detail the steps used when performing an attack using Kali Linux against a Windows Web Server with PHP.
+
 Install xampp from https://www.apachefriends.org/download.html
 
 Download dvwa from https://github.com/digininja/DVWA
