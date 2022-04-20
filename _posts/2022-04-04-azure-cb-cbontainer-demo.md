@@ -808,7 +808,7 @@ Run the file
 ./filename.sh
 ```
 
-After 10 minutes run this command to get the ip of the shopping site, browse the site before checking in CBC for logs, images and netwoprk map traffic.
+After 10 minutes run this command to get the ip of the shopping site, browse the site before checking in CBC for logs, images and network map traffic.
 
 ```bash
 kubectl get service frontend-external | awk '{print $4}'
