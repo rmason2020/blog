@@ -1,7 +1,7 @@
 ---
 title: "Using Knative Eventing To Drive Carbon Black Cloud Workload Protection"
 date: "2022-04-20"
-author: RichMason
+author: RichMason, DarrylCauldwell
 description: "Using Knative Eventing To Drive Carbon Black Cloud Workload Protection"
 tags: [
     "knative",
