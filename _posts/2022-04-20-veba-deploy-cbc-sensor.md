@@ -1,19 +1,21 @@
-+++
-title = "Using Knative Eventing To Drive Carbon Black Cloud Workload Protection"
-date = "2022-04-20"
+---
+title: "Using Knative Eventing To Drive Carbon Black Cloud Workload Protection"
+date: "2022-04-20"
 author: RichMason
-description = "Using Knative Eventing To Drive Carbon Black Cloud Workload Protection"
-tags = [
+description: "Using Knative Eventing To Drive Carbon Black Cloud Workload Protection"
+tags: [
     "knative",
     "kubernetes",
     "veba",
     "carbon black"
 ]
-categories = [
+categories: [
     "automation"
 ]
-thumbnail = "clarity-icons/code-144.svg"
-+++
+thumbnail: "clarity-icons/code-144.svg"
+---
+
+Automating the install of Carbon Black when a new Virtual Machine is created in vCenter.
 
 [VMware Carbon Black Cloud Workload](https://docs.vmware.com/en/VMware-Carbon-Black-Cloud-Workload/1.1/carbonblack_workload/GUID-38D28E17-CDDF-4E60-9164-7FDFD60938FB.html) provides an agentless experience that alleviates installation and management overhead. Once the VMware Carbon Black Cloud Workload Plug-in for vCenter Server is deployed and configured the virtual machine inventory is shown in Carbon Black Cloud. With this in place you can easily monitor and protect the data center workloads from the Carbon Black Cloud console. As well as offering the workload management capability through the console there is a fully featured [workload management API](https://developer.carbonblack.com/reference/carbon-black-cloud/workload-protection/).
 
