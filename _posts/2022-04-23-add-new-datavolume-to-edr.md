@@ -1,3 +1,14 @@
+---
+title: 'New Data Volume on EDR'
+author: RichMason
+layout: post
+permalink: /blog-setup/
+tags: [
+    "edr",
+    "carbon black"
+]
+---
+
 In order to correctly build and provision an EDR server, at a minimum, the data partition should be on it's own logical volume.  This enables the partition to be placed on fast disks seperate from the underlying oS, allows for easier resizing and prevents issues around partitions filling with other files that weren't anticipated in that location.
 
 The below steps can and should be replicated to include volumes for data (/var/cb/data), events (/var/cb/data/solr/cbevents), logs (/var/log/cb) , binaries (/var/cb/data/modulestore) etc
