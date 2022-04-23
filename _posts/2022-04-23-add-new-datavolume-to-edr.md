@@ -2,7 +2,6 @@
 title: 'New Data Volume on EDR'
 author: RichMason
 layout: post
-permalink: /blog-setup/
 tags: [
     "edr",
     "carbon black"
