@@ -1,5 +1,5 @@
 ---
-title: 'Offlien EDR Cluster Install'
+title: 'Offline EDR Cluster Install'
 author: RichMason
 layout: post
 permalink: /offline-cluster/
@@ -21,14 +21,14 @@ https://docs.vmware.com/en/VMware-Carbon-Black-EDR/7.6/cb-edr-scm-guide/GUID-030
 
 On the primary server run cbinit but make this server eventless, it will be responsible for managing the cluster but will not collect or store events.
 
-
+```
 /usr/share/cb/cbinit --no-solr-events
-
+```
 
 On the primary server add the minion nodes
 
-
+```
 /usr/share/cb/cbcluster add-node
+```
 
-
-https://docs.vmware.com/en/VMware-Carbon-Black-EDR/7.6/cb-edr-scm-guide/GUID-5379FF1B-0209-48F8-8874-5C1407240256.html![image](https://user-images.githubusercontent.com/67588723/175943318-cad66b0a-b998-49d8-a5ef-64ff4dc47aae.png)
+https://docs.vmware.com/en/VMware-Carbon-Black-EDR/7.6/cb-edr-scm-guide/GUID-5379FF1B-0209-48F8-8874-5C1407240256.html
