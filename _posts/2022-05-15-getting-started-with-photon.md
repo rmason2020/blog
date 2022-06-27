@@ -18,15 +18,18 @@ https://github.com/vmware/photon/wiki
 
 Permit ssh if needed
 
-# vi /etc/ssh/sshd_config
+```
+vi /etc/ssh/sshd_config
 
 Set PermitRootLogin yes
+```
 
 Set static ip
 
-# networkctl
+```
+networkctl
 
-# 
+
 cat > /etc/systemd/network/10-static-en.network << "EOF"
 [Match]
 Name=eth0
@@ -36,19 +39,21 @@ Gateway=192.168.200.254
 DNS=192.168.200.10
 EOF
 
-# chmod 644 10-static-en.network
-# systemctl restart systemd-networkd
+chmod 644 10-static-en.network
+systemctl restart systemd-networkd
+```
 
 Disable dhcp change yes to no
 
+```
 cat /etc/systemd/network/99-dhcp-en.network
 [Match]
 Name=e*
 [Network]
 DHCP=yes
 
-# systemctl restart systemd-networkd
+systemctl restart systemd-networkd
 
-# chage -I -1 -m 0 -M 3650 -E -1 root    (minus capital I, minus one, minus one)
-
+chage -I -1 -m 0 -M 3650 -E -1 root    (minus capital I, minus one, minus one)
+```
 
