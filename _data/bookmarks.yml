@@ -2,6 +2,10 @@ Carbon Black:
   - name: Carbon Black Cloud Release Notes
     description: Cloud release notes (backend)
     link: https://docs.vmware.com/en/VMware-Carbon-Black-Cloud/services/rn/vmware-carbon-black-cloud-console-release-notes/index.html
+ 
+  - name: Carbon Black Cloud behind VMware Cloud Services Platfrom (CSP)
+    description: Cloud User Guide
+    link: https://docs.vmware.com/en/VMware-Carbon-Black-Cloud-on-VMware-Cloud-Services-Platform/services/carbon-black-cloud-on-csp-user-guide/GUID-E55A92B9-B0C8-481E-97A0-61B997F4EAD3.html
 
   - name: EDR (On Prem) Documentation
     description: Documentation for servers, sensors etc for On Premise (former Response).
