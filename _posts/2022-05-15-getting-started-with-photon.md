@@ -34,9 +34,9 @@ cat > /etc/systemd/network/10-static-en.network << "EOF"
 [Match]
 Name=eth0
 [Network]
-Address=192.168.200.195/24
-Gateway=192.168.200.254
-DNS=192.168.200.10
+Address=192.168.0.195/24
+Gateway=192.168.0.254
+DNS=192.168.0.10
 EOF
 
 chmod 644 10-static-en.network
