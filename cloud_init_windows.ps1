@@ -7,13 +7,13 @@ $ph_cblauncher_url_x64 = "https://prod.cwp.carbonblack.io/cblauncher/windows/us/
 $ph_cblauncher_url_Win32 = "https://prod.cwp.carbonblack.io/cblauncher/windows/us/1.3.0.451-21839045/win32/cblauncher.exe"
 
 <# place holder sensor kit(x64) download url #>
-$ph_sensorkit_url_x64 = "https://content.carbonblack.io/eap01/windows/installer_vista_win7_win8-64-4.0.0.1292.msi?Expires=1702637156&Signature=X0K98Scop7SA3~itzbsZKRAXRdI-cLoamS25c47EsOATGsqEWrndiWxMf3AGL0wISQmSSKYf10lpjonfZQs5gwjFKIHzGJC89ENJfyKKSv6gtWJuowow7DTDO-Z5FzbxglTbWDqgoAQXdKLqTlHuB8NYH7pIs9Lf5kqcBhHTCFOofIiW1Jw81YxC6pLOA3UoeHY3OmJs0cw5JV48xrKayJwRIcJfZ2E9et46vPIkXuu~uNFUtk0nHMcQI-pSeZgJQZddGLOzZunu~RFAQjPH9LB0lv9FDremblyzWkG-zpoBomDkfMjocVyryBHKbY54cFOWC4oNHRb5eje-yKONrg__&Key-Pair-Id=APKAIPKWLAKHF47JG5QA"
+$ph_sensorkit_url_x64 = "https://content.carbonblack.io/eap01/windows/installer_vista_win7_win8-64-4.0.0.1292.msi?Expires=1702803456&Signature=Ra0~-wG6EKroqtfd7CneXaTw2o0gWLi9RIi5r2yAej0fzXpOnIAZzdZldSkSqWUJrkGOTs1Ce6gFRdCrVyDwxVTx1YWJu50ro22b0RaA0z7jdIXml6joOOf8ZiegZtDi7qwaxZcU5ynNBTsHTwRB3zvyd8L4WxyRAhbCKRbdI7cvCKhIAadXwY659TQ8PvvLmR~GnGf4R6v-Ku66PtTZ9CUfw0wjMZzuu4MWAv2DlbItNVJuggXoj3kfV5ejFoOByVtYbAvIL8JW7iGz-INRE1XhXKnNihdoN2ZjQZK~pqCumvvdA1-eIhqVSh3e9b~1Esx4yLrwwHGCKMcu09KS-Q__&Key-Pair-Id=APKAIPKWLAKHF47JG5QA"
 
 <# place holder sensor kit(Win32) download url #>
 $ph_sensorkit_url_Win32 = ""
 
 <# place holder cfg.ini download url #>
-$ph_config_url = "https://content.carbonblack.io/prod05-installer-config/5990f1a146ce03ddc537826f59df0eb76f8ac8653af2e07441017039f854282a/config-blob.ini?Expires=1702637156&Signature=bXdc77qNzfbNqfApqmzSt61DHL5c-eaPpPCL0Q9SRUE9wShJdenGOA7lNmJySncWvkrf0FU3Sfr4OwLv8ya66g-wqs3VVAYMAAG4vatoNIuUzBUEZAWPa~ddcgARaA5QggCTIUemruayhXohVEG4S5Kteh0YPW7mde5WE-iO6m1f-NBnjAyfAwGPVBNS12mGpQdVhL1cA298L5h6PnTr7J-zZOavopftqxDSJm7vX8c1Dd3-Z9B7lxiKhWltG906zWy1ZZXNkzs61lIe5VOAsTSTibeRw9ghvVpTM1jMp2Hf-LHIpBQIa3Ig2e-LXwZAMITpGkt9GkasGD280B2nlA__&Key-Pair-Id=APKAIPKWLAKHF47JG5QA"
+$ph_config_url = "https://content.carbonblack.io/prod05-installer-config/cc770771ed7804979060046bd0bcca3cc0fd8dfa74324e0962d4338108d1270d/config-blob.ini?Expires=1702803456&Signature=dOPjGZN62G892GbTaunTjU8XxxBXR67xZ44uo4h4ryOier-xWJvl42N~RkGzkecRSr6KYXoKDT6XUwcQFJqZHtpQ0iersk6ouFJp1Tr4zS0r~GvRSUYx2dPmxsc3jC-SDt3~Cxh4skc0O8USw5PvQ-0c1RLAKyH6avjX6gMvu-SuqJ9oM8Xdju8Yu2ENAU01pmZ~bDHjk6lOisqn0LhzNIU016JcgxBlj-QYcn2rY7FmwDp0FqgjYKK3~gWmMfjPW9Xln5qoBhFMgphR2szfr3Y1RHT3rlpmAXlYhEjcVKZUsOM5je8wDp0WFccuCAyIIolcUQ4~kea~lJMk9Czmvw__&Key-Pair-Id=APKAIPKWLAKHF47JG5QA"
 
 
 <# Helper functions #>
